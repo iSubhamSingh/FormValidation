@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <div class="container"><br>
+
+      
+
+			<form action="submit.html" onsubmit="return validate()">
+
+                <h1>Registration Form </h1>
+				
+				<div class="form">
+					<label> First Name: </label><br>
+					<input type="text" id="fname" class="inputs">
+					<span id="finame" class="error"> </span>
+				</div>
+
+                <div class="form">
+                    <label >Last Name: </label><br>
+                    <input type="text" id="lname" class="inputs">
+					<span id = "lastname" class="error"></span>
+                </div>
+
+				<div class="form">
+					<label>Email: </label><br>
+					<input type="text" id="email" class="inputs">
+					<span id="mail" class="error"></span>
+				</div>
+
+				<div class="form">
+					<label>Username: </label><br>
+					<input type="text" id="uname" class="inputs">
+					<span id="user" class="error"></span>
+				</div>
+
+				<div class="form">
+					<label > Password: </label><br>
+					<input type="text" id="pass" class="inputs" >
+					<span id="passwords" class="error"> </span>
+				</div>
+
+				<div class="form">
+					<label > Confirm Password: </label><br>
+					<input type="text"  id="conpass" class="inputs" >
+					<span id="confrmpass" class="error"> </span>
+				</div>
+
+				<input type="submit" style="background-color: rgb(106 195 253);" name="submit" value="Submit" class="button" >
+                <input type="reset" style="background-color:rgb(219 42 42 / 85%);" name = "reset" value="Reset" class = "button">
+
+			</form>
+
+
+		
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>

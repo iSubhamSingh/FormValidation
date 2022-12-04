@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/zm8bgId.jpg");
+}
+
+h1 {
+    margin-left: 75px;
+    color: white;
+}
+
+.container {
+    border: 2px solid rgb(24, 7, 7);
+    box-shadow: rgb(13 221 231) 10px 10px 50px;
+    height: 670px;
+    width: 600px;
+    background-image: url("https://imgs.search.brave.com/KBx_tkfOlaKHq_iKkMe_zlqLoEQxycqAmr1IUC5JpqM/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/dXAubmV0L3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA5LzI1/LzYxNzcyNS0zRC1z/aGFkb3cuanBn");
+    margin-left: 430px;
+    border-radius: 30px;
+}
+
+.form {
+    margin-left: 30px;
+    margin: 20px;
+}
+
+.inputs {
+    padding: 12px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.button {
+    margin-left: 60px;
+    padding: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(31, 197, 92);
+}
