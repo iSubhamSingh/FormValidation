@@ -63,7 +63,7 @@ function validate() {
         return false;
     }
 
-    if ((pass.length <= 5) || (pass.length > 20)) {
+    if ((pass.length <= 8) || (pass.length > 20)) {
         document.getElementById('passwords').innerHTML = " * Password lenght must be greater than 5";
         return false;
     }
