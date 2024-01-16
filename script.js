@@ -18,6 +18,11 @@ function validate() {
         return false;
     }
 
+    if ((lastname.length <= 2) || (lastname.length > 20)) {
+        document.getElementById('lastname').innerHTML = " * Last name's length must be atleast 2 characters";
+        return false;
+    }
+
 
     if (!isNaN(fname)) {
         document.getElementById('finame').innerHTML = " * only characters are allowed";
