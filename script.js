@@ -8,7 +8,7 @@ function validate() {
     let confirmpass = document.getElementById('conpass').value;
 
 
-    if (fname == "" || !isNaN(fname) {
+    if (fname == "" || !isNaN(fname) || fname == null) {
         document.getElementById('finame').innerHTML = " * First name can't be empty";
         return false;
     }
